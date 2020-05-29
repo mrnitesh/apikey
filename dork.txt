@@ -1,0 +1,19 @@
+intitle:"index of" api_key OR "api key" OR apiKey -pool
+site:github.com inurl:looker "api" "key"
+site:github.com inurl:looker "password"
+intext:APIKey ext:js | xml | yaml | txt | conf | py -github -stackoverflow intitle:"index of"
+intitle:"index of" "api/admin"
+intitle:"index of" "refresh_token.txt" OR "access_token.txt" OR "jsapi_ticket.txt"
+intitle:"index of" "jsapi_ticket.json"
+intitle:"index of" "google-api-private-key.json"
+intitle:"index of" "api.yaml"
+intitle:"index of" apis.json
+inurl:"/includes/api/" intext:"index of /"
+intitle:"index.of" intext:"api.txt"
+intitle:"index of" api_key OR "api key" OR apiKey -pool
+"MailChimp API error:" ext:log
+intitle:"API Publisher- Login"
+inurl:/portal/apis/fileExplorer/
+intext:APIKey ext:js | xml | yml | txt | conf | py -github -stackoverflow intitle:"index of"
+inurl:"/api/index.php" intitle:UniFi
+intitle:"StrongLoop API Explorer" intext:"Token Not Set"
